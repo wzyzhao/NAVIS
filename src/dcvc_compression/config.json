@@ -1,0 +1,41 @@
+{
+  "run_level": "refresh_full",
+  "bundle_root": "../scene_factorization/scene_factorization_output",
+  "sequence_filter": [
+    "MOT17-02-FRCNN",
+    "MOT17-10-FRCNN",
+    "MOT17-11-FRCNN"
+  ],
+  "output_root": "../../experiments/results/encoding/dcvc",
+  "dcvc_repo": "vendor/DCVC",
+  "model_path_i": "models/dcvc_rt/cvpr2025_image.pth.tar",
+  "model_path_p": "models/dcvc_rt/cvpr2025_video.pth.tar",
+  "device": "auto",
+  "fps": 30,
+  "background_rate_num": 2,
+  "background_rate_idx": 1,
+  "background_qp_i": [
+    0,
+    21
+  ],
+  "background_qp_p": [
+    0,
+    21
+  ],
+  "background_required_interval_seconds": 10.0,
+  "background_summary_change_threshold": 0.018,
+  "background_summary_min_interval_frames": 300,
+  "metadata_roi_mask_mode": "track_refresh",
+  "metadata_roi_mask_refresh_interval": 8,
+  "metadata_roi_mask_motion_threshold": 0.6,
+  "metadata_roi_mask_uncertainty_threshold": 0.6,
+  "foreground_rate_num": 4,
+  "foreground_rate_idx": 2,
+  "elic_summary": "../../experiments/results/encoding/elic/summary.json",
+  "worker_num": 1,
+  "force_frame_num": -1,
+  "force_zero_thres": 0.12,
+  "reset_interval": 64,
+  "verbose": 0,
+  "calc_ssim": false
+}

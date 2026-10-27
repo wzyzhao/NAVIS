@@ -1,0 +1,21 @@
+{
+  "bundle_root": "../scene_factorization/scene_factorization_output",
+  "output_root": "../../experiments/results/encoding/elic",
+  "elic_checkpoint": "models/elic/ELIC_0016_ft_3980_Plateau.pth.tar",
+  "jpeg_quality": 85,
+  "max_foregrounds": 12,
+  "sequence_filter": [
+    "MOT17-02-FRCNN",
+    "MOT17-04-FRCNN",
+    "MOT17-05-FRCNN",
+    "MOT17-09-FRCNN",
+    "MOT17-10-FRCNN",
+    "MOT17-11-FRCNN",
+    "MOT17-13-FRCNN"
+  ],
+  "fps": 30,
+  "device": "auto",
+  "max_frames": -1,
+  "candidate_export_only": true,
+  "candidate_source_manifest": "../../experiments/results/encoding/dcvc/payloads/candidate_manifest.json"
+}

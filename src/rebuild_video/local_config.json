@@ -1,0 +1,23 @@
+{
+  "receiver_output_root": "../../experiments/results/transmission/navis/mot17_04/run01/receiver",
+  "output_root": "../../experiments/results/transmission/navis/mot17_04/run01/rebuild",
+  "reconstruction_expected_frames": 1050,
+  "reconstruction_width": 0,
+  "reconstruction_height": 0,
+  "reconstruction_fps": 30,
+  "reconstruction_roi_mask_erode_pixels": 2,
+  "reconstruction_roi_mask_feather_pixels": 7,
+  "reconstruction_roi_black_border_suppression": true,
+  "reconstruction_roi_black_threshold": 24,
+  "reconstruction_roi_content_mask_dilate_pixels": 3,
+  "reconstruction_roi_internal_black_suppression": true,
+  "reconstruction_roi_internal_black_min_area_ratio": 0.015,
+  "roi_cache_ttl_frames": 6,
+  "roi_proxy_fade_frames": 4,
+  "roi_proxy_min_alpha": 0.15,
+  "roi_proxy_motion_compensation": true,
+  "roi_proxy_max_motion_scale": 1.5,
+  "reconstruction_roi_min_effective_alpha_ratio": 0.02,
+  "reconstruction_skip_quality": true,
+  "schedule_json": "../../experiments/results/encoding/dcvc/payloads/candidate_manifest.json"
+}

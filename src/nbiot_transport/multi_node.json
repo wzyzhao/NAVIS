@@ -1,0 +1,51 @@
+{
+    "source":  "multi_schedule",
+    "node_allocation_policy": "health_weighted",
+    "output_root":  "../../experiments/results/transmission/multinode/health_weighted/mot17_04_09/run01/sender",
+    "missing_fragment_queue_json":  "../../experiments/results/transmission/multinode/health_weighted/mot17_04_09/run01/sender/missing_fragment_queue.json",
+    "nodes":  [
+                  {
+                      "device_id":  "node_1",
+                      "serial_port":  "COM7",
+                      "sim_apn": "cmnbiot",
+                      "schedule_json":  "../../experiments/results/encoding/dcvc/payloads/candidate_manifest.json",
+                      "sequence_filter":  "MOT17-04-FRCNN",
+                      "max_frames":  -1
+                  },
+                  {
+                      "device_id":  "node_2",
+                      "serial_port":  "COM15",
+                      "sim_apn": "cmnbiot",
+                      "schedule_json":  "../../experiments/results/encoding/dcvc/payloads/candidate_manifest.json",
+                      "sequence_filter":  "MOT17-09-FRCNN",
+                      "max_frames":  -1
+                  }
+              ],
+    "max_frames":  -1,
+    "remote_host":  "47.96.177.237",
+    "remote_port":  9000,
+    "sim_protocol":  "TCP",
+    "application_ack_timeout_seconds":  20.0,
+    "round_ack_query_attempts":  2,
+    "manual_modem_recovery_enabled": true,
+    "carecv_read_bytes":  1024,
+    "max_packet_payload_bytes":  512,
+    "metadata_packet_payload_bytes":  1024,
+    "roi_packet_payload_bytes":  1024,
+    "background_packet_payload_bytes":  512,
+    "max_roi_count":  12,
+    "roi_dynamic_count_enabled":  true,
+    "min_roi_count_per_window":  2,
+    "max_dynamic_roi_count_per_window":  24,
+    "roi_budget_fill_enabled": true,
+    "max_budget_fill_roi_count_per_window": 96,
+    "metadata_only_on_congestion":  true,
+    "scheduling_window_frames":  2,
+    "max_scheduling_window_frames":  3,
+    "global_quota_bytes":  35000,
+    "initial_window_quota_bytes":  30000,
+    "quota_safety_factor":  0.75,
+    "min_quota_bytes":  6000,
+    "max_quota_bytes":  35000,
+    "receiver_session_isolation_confirmed":  true
+}

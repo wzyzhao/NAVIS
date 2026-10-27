@@ -1,0 +1,1 @@
+"""ELIC + JPEG compression project."""

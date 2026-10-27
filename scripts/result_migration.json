@@ -1,0 +1,21 @@
+[
+  ["nbiot_transport/nbiot_transport_runs/MOT17-09", "experiments/results/navis/mot17_09/run01/receiver"],
+  ["nbiot_transport/nbiot_transport_runs", "experiments/results/navis/mot17_04/run01/sender"],
+  ["rebuild_video/rebuild_runs", "experiments/results/navis/mot17_04/run01/rebuild"],
+  ["rebuild_video/mot17_09_received_run01", "experiments/results/navis/mot17_09/run01/rebuild"],
+  ["nbiot_transport/nbiot_transport_runs_elic_baseline", "experiments/results/elic/mot17_04/run01/sender"],
+  ["elic_jpg_compression/received_data/elic_mot17_04_run01", "experiments/results/elic/mot17_04/run01/receiver"],
+  ["rebuild_video/elic_rebuild_run01", "experiments/results/elic/mot17_04/run01/rebuild"],
+  ["experiments/cloud_detection_runs_elic_mot17_04_received_roi_run01", "experiments/results/elic/mot17_04/run01/detection"],
+  ["experiments/cloud_detection_runs_mot17_04_received_roi_gated_all_classes", "experiments/results/navis/mot17_04/run01/detection"],
+  ["experiments/mot17_09_received_run01", "experiments/results/navis/mot17_09/run01/analysis"],
+  ["experiments/ack_adaptation", "experiments/results/navis/mot17_04/run01/ack_analysis"],
+  ["experiments/scheduler_ablation_final_mot17_04", "experiments/results/ablation/mot17_04"],
+  ["experiments/scheduler_ablation_final_mot17_05", "experiments/results/ablation/mot17_05"],
+  ["experiments/scheduler_ablation_final_mot17_09", "experiments/results/ablation/mot17_09"],
+  ["experiments/scheduler_ablation_final_mot17_13", "experiments/results/ablation/mot17_13"],
+  ["experiments/candidate_minimal_metrics", "experiments/results/encoding/metrics"],
+  ["dcvc_compression/layered_experiment_runs", "experiments/results/encoding/dcvc"],
+  ["elic_jpg_compression/experiment_runs", "experiments/results/encoding/elic"],
+  ["elic_jpg_compression/transport_candidates", "experiments/results/encoding/elic"]
+]

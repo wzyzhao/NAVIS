@@ -1,0 +1,9 @@
+{
+  "isolate_sessions": true,
+  "host": "0.0.0.0",
+  "port": 9000,
+  "output_root": "/var/lib/nbiot_receiver",
+  "round_ack_repeat_count": 2,
+  "round_ack_repeat_interval_seconds": 0.05,
+  "client_idle_timeout_seconds": 300
+}

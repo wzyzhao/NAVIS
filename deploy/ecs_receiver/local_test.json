@@ -1,0 +1,9 @@
+{
+  "isolate_sessions": true,
+  "host": "127.0.0.1",
+  "port": 9000,
+  "output_root": "../../experiments/results/receiver_local_test",
+  "round_ack_repeat_count": 2,
+  "round_ack_repeat_interval_seconds": 0.05,
+  "client_idle_timeout_seconds": 300
+}

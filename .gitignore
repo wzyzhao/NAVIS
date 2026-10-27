@@ -1,0 +1,33 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+/MOT17/
+/src/scene_factorization/scene_factorization_output/
+
+# Local settings, credentials and installation artifacts
+.idea/
+.env
+.env.*
+!.env.example
+*.log
+/scripts/installers/
+
+# Download datasets and pretrained weights separately
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+*.onnx
+
+# Keep experiment documentation, regenerate runtime artifacts locally
+/experiments/results/**
+!/experiments/results/**/
+!/experiments/results/**/*.md
